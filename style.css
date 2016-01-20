@@ -12,9 +12,20 @@ body {
   margin: auto;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .photo {
+    display: none;
+  }
+  main {
+    text-align: center;
+  }
+}
 header{
   background-color:#2056ac;
-  padding: 7%;
+  padding:7%;
+  width: 1300px;
+  margin:auto;
+  text-align: center;
 }
 main {
   max-width: 1200px;
@@ -32,6 +43,7 @@ footer {
 h1 {
   font-size: 3em;
   font-weight: bold;
+  padding:1%;
 
 }
 h2 {
@@ -48,6 +60,7 @@ h4 {
 }
 nav {
  display:inline-block;
+ margin-bottom:-6%;
 }
 ul {
   list-style-type: none;
@@ -55,24 +68,76 @@ ul {
 }
 ul li {
   float: left;
-
-
 }
 ul li a{
   color: #fff;
   text-decoration: none;
-  padding:20px;
-
-
+  padding:15px;
+  width: 33%;
 }
 a:hover{
   color:#2056ac;
+  background-color: #ffffff;
+  padding: 10% 10% 35% 10%;
+  border-radius: 7%;
+
+}
+img {
+  width: 1200px;
+  height:500px;
+  margin: auto;
+  padding-top: 4em;
+  padding-bottom: 5.2em;
+}
+.intro {
+  padding: 4%;
 }
 .a article{
   display:inline-block;
   width: 33%;
+  padding: 5%;
 }
 .b article{
   display:inline-block;
   width: 24.5%;
+  padding: 5%;
+}
+
+.bouton {
+  background-color: #2056ac;
+  border: 0px;
+  padding: 4%;
+  padding-left: 6%;
+  padding-right: 6%;
+
+}
+.bouton a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.info {
+
+  background-color: #E3F0F7;
+  max-width: 1300px
+}
+.info div {
+  display: inline-block;
+  width: 32%;
+  height: 100%
+  line-height: none;
+  padding: 4%;
+  vertical-align: top;
+}
+
+article section p {
+  display:inline-block;
+  word-spacing: 0.125em;
+  line-height: 1.250em;
+  padding: 5%;
+}
+.fa i {
+  background-color: #64ABD1;
+  padding: 0.2em;
+  margin-top: 1.5em;
+
 }
