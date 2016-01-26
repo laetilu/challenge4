@@ -19,11 +19,22 @@ body {
   main {
     text-align: center;
   }
+  .info {
+    display:block;
+    word-wrap: break-word;
+  }
+  nav {
+
+  font-size: 0.6em;
+  }
+  /*article {
+    display:block;
+  }*/
 }
 header{
   background-color:#2056ac;
   padding:7%;
-  width: 1300px;
+  max-width: 1300px;
   margin:auto;
   text-align: center;
 }
@@ -75,7 +86,7 @@ ul li a{
   padding:15px;
   width: 33%;
 }
-a:hover{
+nav a:hover{
   color:#2056ac;
   background-color: #ffffff;
   padding: 10% 10% 35% 10%;
@@ -110,6 +121,7 @@ img {
   padding-left: 6%;
   padding-right: 6%;
 
+
 }
 .bouton a{
   text-decoration: none;
@@ -118,7 +130,8 @@ img {
 .info {
 
   background-color: #E3F0F7;
-  max-width: 1300px
+  max-width: 1300px;
+
 }
 .info div {
   display: inline-block;
@@ -128,7 +141,9 @@ img {
   padding: 4%;
   vertical-align: top;
 }
-
+.fainfo{
+  padding:2em;
+}
 article section p {
   display:inline-block;
   word-spacing: 0.125em;
